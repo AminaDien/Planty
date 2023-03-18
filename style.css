@@ -6,3 +6,24 @@ Author URI: https://www.planty.local
 Template: Blankslate 
 Version: 0.1.0
 */
+
+*GLOBAL CSS*/
+
+body { 
+    font-family: 'Raleway', sans-serif;
+    max-width: 1400px;
+}
+
+a { 
+    color: #000;
+    text-decoration: none;
+}
+
+/*HEADER*/
+
+.menu {
+    display: flex;
+    justify-content: flex-end;
+    justify-content: space-around;
+    align-items: center;
+}
