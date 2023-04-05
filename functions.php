@@ -9,17 +9,15 @@ function theme_enqueue_styles() {
 }
 
 function register_my_menu(){
-    register_nav_menu( 'main-menu', 'Menu principal' );
+    register_nav_menu( 'main-menu', 'Menu Header' );
   }
   add_action( 'after_setup_theme', 'register_my_menu' );
 
   add_filter( 'wp_nav_menu_items', 'add_extra_item_to_nav_menu', 10, 2 );
   function add_extra_item_to_nav_menu( $items, $args ) {
-      if (is_user_logged_in() && $args->menu == 303) {
-          $items .= '<li><a href="'. get_permalink( get_option('woocommerce_myaccount_page_id') ) .'">My Account</a></li>';
-      }
-      elseif (!is_user_logged_in() && $args->menu == 303) {
-          $items .= '<li><a href="' . get_permalink( wc_get_page_id( 'myaccount' ) ) . '">Sign in  /  Register</a></li>';
+      if (is_user_logged_in() && $args->menu == 6)
+       {
+          $items .= '<li><a href="/admin/">Admin</a></li>';
       }
       return $items;
   }
