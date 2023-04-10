@@ -12,12 +12,12 @@ function register_my_menu(){
     register_nav_menu( 'main-menu', 'Menu Header' );
   }
   add_action( 'after_setup_theme', 'register_my_menu' );
-
+  
   add_filter( 'wp_nav_menu_items', 'add_extra_item_to_nav_menu', 10, 2 );
   function add_extra_item_to_nav_menu( $items, $args ) {
-      if (is_user_logged_in() && $args->menu == 6)
+      if (is_user_logged_in() && $args->theme_location === 'main-menu')
        {
-          $items .= '<li><a href="/admin/">Admin</a></li>';
+          $items .= '<li class="menu-item menu-item-type-post_type menu-item-object-page parent hfe-creative-menu"><a class="hfe-menu-item" href="/admin/">Admin</a></li>';
       }
       return $items;
   }
