@@ -1,0 +1,341 @@
+[13-Mar-2023 21:20:15 UTC] PHP Parse error:  syntax error, unexpected token "}" in /Users/aminadien/Local Sites/planty/app/public/wp-content/themes/Blankslate-Child/functions.php on line 11
+[13-Mar-2023 21:20:15 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/aminadien/Local Sites/planty/app/public/wp-includes/class-wp-recovery-mode-email-service.php on line 372
+[13-Mar-2023 21:20:15 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/aminadien/Local Sites/planty/app/public/wp-includes/class-wp-recovery-mode-email-service.php on line 373
+[13-Mar-2023 21:26:13 UTC] PHP Parse error:  syntax error, unexpected token "}" in /Users/aminadien/Local Sites/planty/app/public/wp-content/themes/Blankslate-Child/functions.php on line 11
+[13-Mar-2023 21:28:23 UTC] PHP Parse error:  syntax error, unexpected token "}" in /Users/aminadien/Local Sites/planty/app/public/wp-content/themes/Blankslate-Child/functions.php on line 11
+[13-Mar-2023 21:30:29 UTC] PHP Parse error:  syntax error, unexpected token "}" in /Users/aminadien/Local Sites/planty/app/public/wp-content/themes/Blankslate-Child/functions.php on line 11
+[13-Mar-2023 21:32:29 UTC] PHP Parse error:  syntax error, unexpected token "}" in /Users/aminadien/Local Sites/planty/app/public/wp-content/themes/Blankslate-Child/functions.php on line 11
+[13-Mar-2023 21:33:29 UTC] PHP Parse error:  syntax error, unexpected token "}" in /Users/aminadien/Local Sites/planty/app/public/wp-content/themes/Blankslate-Child/functions.php on line 11
+[13-Mar-2023 21:34:29 UTC] PHP Parse error:  syntax error, unexpected token "}" in /Users/aminadien/Local Sites/planty/app/public/wp-content/themes/Blankslate-Child/functions.php on line 11
+[13-Mar-2023 21:36:29 UTC] PHP Parse error:  syntax error, unexpected token "}" in /Users/aminadien/Local Sites/planty/app/public/wp-content/themes/Blankslate-Child/functions.php on line 11
+[13-Mar-2023 21:36:46 UTC] PHP Parse error:  syntax error, unexpected token "}" in /Users/aminadien/Local Sites/planty/app/public/wp-content/themes/Blankslate-Child/functions.php on line 11
+[13-Mar-2023 21:36:49 UTC] PHP Parse error:  syntax error, unexpected token "}" in /Users/aminadien/Local Sites/planty/app/public/wp-content/themes/Blankslate-Child/functions.php on line 11
+[13-Mar-2023 21:37:36 UTC] PHP Parse error:  syntax error, unexpected token "}" in /Users/aminadien/Local Sites/planty/app/public/wp-content/themes/Blankslate-Child/functions.php on line 11
+[20-Mar-2023 16:58:48 UTC] PHP Parse error:  syntax error, unexpected token "=", expecting identifier in /Users/aminadien/Local Sites/planty/app/public/wp-content/themes/Blankslate-Child/footer.php on line 3
+[20-Mar-2023 16:58:48 UTC] PHP Parse error:  syntax error, unexpected token "=", expecting identifier in /Users/aminadien/Local Sites/planty/app/public/wp-content/themes/Blankslate-Child/footer.php on line 3
+[21-Mar-2023 13:15:05 UTC] PHP Warning:  Undefined array key "data" in /Users/aminadien/Local Sites/planty/app/public/wp-content/plugins/elementor/core/common/modules/ajax/module.php on line 175
+[21-Mar-2023 13:29:20 UTC] PHP Warning:  Undefined array key "data" in /Users/aminadien/Local Sites/planty/app/public/wp-content/plugins/elementor/core/common/modules/ajax/module.php on line 175
+[24-Mar-2023 12:12:39 UTC] WordPress database error Table 'wp_actionscheduler_actions' already exists for query CREATE TABLE wp_actionscheduler_actions (
+				        action_id bigint(20) unsigned NOT NULL auto_increment,
+				        hook varchar(191) NOT NULL,
+				        status varchar(20) NOT NULL,
+				        scheduled_date_gmt datetime NULL default '0000-00-00 00:00:00',
+				        scheduled_date_local datetime NULL default '0000-00-00 00:00:00',
+				        args varchar(191),
+				        schedule longtext,
+				        group_id bigint(20) unsigned NOT NULL default '0',
+				        attempts int(11) NOT NULL default '0',
+				        last_attempt_gmt datetime NULL default '0000-00-00 00:00:00',
+				        last_attempt_local datetime NULL default '0000-00-00 00:00:00',
+				        claim_id bigint(20) unsigned NOT NULL default '0',
+				        extended_args varchar(8000) DEFAULT NULL,
+				        PRIMARY KEY  (action_id),
+				        KEY hook (hook(191)),
+				        KEY status (status),
+				        KEY scheduled_date_gmt (scheduled_date_gmt),
+				        KEY args (args(191)),
+				        KEY group_id (group_id),
+				        KEY last_attempt_gmt (last_attempt_gmt),
+				        KEY `claim_id_status_scheduled_date_gmt` (`claim_id`, `status`, `scheduled_date_gmt`)
+				        ) DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_520_ci made by activate_plugin, plugin_sandbox_scrape, include_once('/plugins/wpforms-lite/wpforms.php'), wpforms, WPForms\WPForms::instance, WPForms\WPForms->includes, WPForms\WPForms->includes_magic, require_once('/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/action-scheduler.php'), action_scheduler_initialize_3_dot_4_dot_0, ActionScheduler::init, ActionScheduler_HybridStore->init, ActionScheduler_DBStore->init, ActionScheduler_Abstract_Schema->register_tables, ActionScheduler_Abstract_Schema->update_table, dbDelta
+[29-Mar-2023 22:40:39 UTC] Erreur d’événement de replanification de tâche pour le crochet action_scheduler_run_queue. Code d’erreur : invalid_schedule. Message d’erreur : L’évènement planifié n’existe pas.. Données : {"schedule":"every_minute","args":["WP Cron"],"interval":60}
+[01-Apr-2023 14:39:21 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "add_admin_link" not found or invalid function name in /Users/aminadien/Local Sites/planty/app/public/wp-includes/class-wp-hook.php:308
+Stack trace:
+#0 /Users/aminadien/Local Sites/planty/app/public/wp-includes/plugin.php(205): WP_Hook->apply_filters('<li id="menu-it...', Array)
+#1 /Users/aminadien/Local Sites/planty/app/public/wp-includes/nav-menu-template.php(273): apply_filters('wp_nav_menu_ite...', '<li id="menu-it...', Object(stdClass))
+#2 /Users/aminadien/Local Sites/planty/app/public/wp-content/plugins/header-footer-elementor/inc/widgets-manager/widgets/class-navigation-menu.php(1934): wp_nav_menu(Object(stdClass))
+#3 /Users/aminadien/Local Sites/planty/app/public/wp-content/plugins/elementor/includes/base/controls-stack.php(2268): HFE\WidgetsManager\Widgets\Navigation_Menu->render()
+#4 /Users/aminadien/Local Sites/planty/app/public/wp-content/plugins/elementor/includes/base/widget-base.php(609): Elementor\Controls_Stack->render_by_mode()
+#5 /Users/aminadien/Local Sites/planty/app/public/wp-content/plugins/elementor/includes/base/widget-base.php(750): Elementor\Widget_Base->render_content()
+#6 /Users/aminadien/Local Sites/planty/app/public/wp-content/plugins/elementor/includes/base/element-base.php(449): Elementor\Widget_Base->print_content()
+#7 /Users/aminadien/Local Sites/planty/app/public/wp-content/plugins/elementor/includes/base/element-base.php(1354): Elementor\Element_Base->print_element()
+#8 /Users/aminadien/Local Sites/planty/app/public/wp-content/plugins/elementor/includes/base/element-base.php(449): Elementor\Element_Base->print_content()
+#9 /Users/aminadien/Local Sites/planty/app/public/wp-content/plugins/elementor/includes/base/element-base.php(1354): Elementor\Element_Base->print_element()
+#10 /Users/aminadien/Local Sites/planty/app/public/wp-content/plugins/elementor/includes/base/element-base.php(449): Elementor\Element_Base->print_content()
+#11 /Users/aminadien/Local Sites/planty/app/public/wp-content/plugins/elementor/core/base/document.php(1669): Elementor\Element_Base->print_element()
+#12 /Users/aminadien/Local Sites/planty/app/public/wp-content/plugins/elementor/core/base/document.php(1095): Elementor\Core\Base\Document->print_elements(Array)
+#13 /Users/aminadien/Local Sites/planty/app/public/wp-content/plugins/elementor/includes/frontend.php(1179): Elementor\Core\Base\Document->print_elements_with_wrapper(Array)
+#14 /Users/aminadien/Local Sites/planty/app/public/wp-content/plugins/elementor/includes/frontend.php(1247): Elementor\Frontend->get_builder_content('36', false)
+#15 /Users/aminadien/Local Sites/planty/app/public/wp-content/plugins/header-footer-elementor/inc/class-header-footer-elementor.php(510): Elementor\Frontend->get_builder_content_for_display('36')
+#16 /Users/aminadien/Local Sites/planty/app/public/wp-content/plugins/header-footer-elementor/inc/hfe-functions.php(88): Header_Footer_Elementor::get_header_content()
+#17 /Users/aminadien/Local Sites/planty/app/public/wp-includes/class-wp-hook.php(308): hfe_render_header('')
+#18 /Users/aminadien/Local Sites/planty/app/public/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#19 /Users/aminadien/Local Sites/planty/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#20 /Users/aminadien/Local Sites/planty/app/public/wp-content/plugins/header-footer-elementor/themes/default/hfe-header.php(23): do_action('hfe_header')
+#21 /Users/aminadien/Local Sites/planty/app/public/wp-content/plugins/header-footer-elementor/themes/default/class-hfe-default-compat.php(57): require('/Users/aminadie...')
+#22 /Users/aminadien/Local Sites/planty/app/public/wp-includes/class-wp-hook.php(310): HFE\Themes\HFE_Default_Compat->override_header(NULL)
+#23 /Users/aminadien/Local Sites/planty/app/public/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#24 /Users/aminadien/Local Sites/planty/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#25 /Users/aminadien/Local Sites/planty/app/public/wp-includes/general-template.php(38): do_action('get_header', NULL, Array)
+#26 /Users/aminadien/Local Sites/planty/app/public/wp-content/themes/Blankslate/page.php(1): get_header()
+#27 /Users/aminadien/Local Sites/planty/app/public/wp-includes/template-loader.php(106): include('/Users/aminadie...')
+#28 /Users/aminadien/Local Sites/planty/app/public/wp-blog-header.php(19): require_once('/Users/aminadie...')
+#29 /Users/aminadien/Local Sites/planty/app/public/index.php(17): require('/Users/aminadie...')
+#30 {main}
+  thrown in /Users/aminadien/Local Sites/planty/app/public/wp-includes/class-wp-hook.php on line 308
+[01-Apr-2023 14:39:27 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "add_admin_link" not found or invalid function name in /Users/aminadien/Local Sites/planty/app/public/wp-includes/class-wp-hook.php:308
+Stack trace:
+#0 /Users/aminadien/Local Sites/planty/app/public/wp-includes/plugin.php(205): WP_Hook->apply_filters('<li id="menu-it...', Array)
+#1 /Users/aminadien/Local Sites/planty/app/public/wp-includes/nav-menu-template.php(273): apply_filters('wp_nav_menu_ite...', '<li id="menu-it...', Object(stdClass))
+#2 /Users/aminadien/Local Sites/planty/app/public/wp-content/plugins/header-footer-elementor/inc/widgets-manager/widgets/class-navigation-menu.php(1934): wp_nav_menu(Object(stdClass))
+#3 /Users/aminadien/Local Sites/planty/app/public/wp-content/plugins/elementor/includes/base/controls-stack.php(2268): HFE\WidgetsManager\Widgets\Navigation_Menu->render()
+#4 /Users/aminadien/Local Sites/planty/app/public/wp-content/plugins/elementor/includes/base/widget-base.php(609): Elementor\Controls_Stack->render_by_mode()
+#5 /Users/aminadien/Local Sites/planty/app/public/wp-content/plugins/elementor/includes/base/widget-base.php(750): Elementor\Widget_Base->render_content()
+#6 /Users/aminadien/Local Sites/planty/app/public/wp-content/plugins/elementor/includes/base/element-base.php(449): Elementor\Widget_Base->print_content()
+#7 /Users/aminadien/Local Sites/planty/app/public/wp-content/plugins/elementor/includes/base/element-base.php(1354): Elementor\Element_Base->print_element()
+#8 /Users/aminadien/Local Sites/planty/app/public/wp-content/plugins/elementor/includes/base/element-base.php(449): Elementor\Element_Base->print_content()
+#9 /Users/aminadien/Local Sites/planty/app/public/wp-content/plugins/elementor/includes/base/element-base.php(1354): Elementor\Element_Base->print_element()
+#10 /Users/aminadien/Local Sites/planty/app/public/wp-content/plugins/elementor/includes/base/element-base.php(449): Elementor\Element_Base->print_content()
+#11 /Users/aminadien/Local Sites/planty/app/public/wp-content/plugins/elementor/core/base/document.php(1669): Elementor\Element_Base->print_element()
+#12 /Users/aminadien/Local Sites/planty/app/public/wp-content/plugins/elementor/core/base/document.php(1095): Elementor\Core\Base\Document->print_elements(Array)
+#13 /Users/aminadien/Local Sites/planty/app/public/wp-content/plugins/elementor/includes/frontend.php(1179): Elementor\Core\Base\Document->print_elements_with_wrapper(Array)
+#14 /Users/aminadien/Local Sites/planty/app/public/wp-content/plugins/elementor/includes/frontend.php(1247): Elementor\Frontend->get_builder_content('36', false)
+#15 /Users/aminadien/Local Sites/planty/app/public/wp-content/plugins/header-footer-elementor/inc/class-header-footer-elementor.php(510): Elementor\Frontend->get_builder_content_for_display('36')
+#16 /Users/aminadien/Local Sites/planty/app/public/wp-content/plugins/header-footer-elementor/inc/hfe-functions.php(88): Header_Footer_Elementor::get_header_content()
+#17 /Users/aminadien/Local Sites/planty/app/public/wp-includes/class-wp-hook.php(308): hfe_render_header('')
+#18 /Users/aminadien/Local Sites/planty/app/public/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#19 /Users/aminadien/Local Sites/planty/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#20 /Users/aminadien/Local Sites/planty/app/public/wp-content/plugins/header-footer-elementor/themes/default/hfe-header.php(23): do_action('hfe_header')
+#21 /Users/aminadien/Local Sites/planty/app/public/wp-content/plugins/header-footer-elementor/themes/default/class-hfe-default-compat.php(57): require('/Users/aminadie...')
+#22 /Users/aminadien/Local Sites/planty/app/public/wp-includes/class-wp-hook.php(310): HFE\Themes\HFE_Default_Compat->override_header(NULL)
+#23 /Users/aminadien/Local Sites/planty/app/public/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#24 /Users/aminadien/Local Sites/planty/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#25 /Users/aminadien/Local Sites/planty/app/public/wp-includes/general-template.php(38): do_action('get_header', NULL, Array)
+#26 /Users/aminadien/Local Sites/planty/app/public/wp-content/themes/Blankslate/page.php(1): get_header()
+#27 /Users/aminadien/Local Sites/planty/app/public/wp-includes/template-loader.php(106): include('/Users/aminadie...')
+#28 /Users/aminadien/Local Sites/planty/app/public/wp-blog-header.php(19): require_once('/Users/aminadie...')
+#29 /Users/aminadien/Local Sites/planty/app/public/index.php(17): require('/Users/aminadie...')
+#30 {main}
+  thrown in /Users/aminadien/Local Sites/planty/app/public/wp-includes/class-wp-hook.php on line 308
+[01-Apr-2023 14:41:35 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting "{" in /Users/aminadien/Local Sites/planty/app/public/wp-content/themes/Blankslate-Child/functions.php on line 16
+[03-Apr-2023 13:00:30 UTC] Erreur d’événement de replanification de tâche pour le crochet wpforms_email_summaries_cron. Code d’erreur : invalid_schedule. Message d’erreur : L’évènement planifié n’existe pas.. Données : {"schedule":"wpforms_email_summaries_weekly","args":[],"interval":604800}
+[03-Apr-2023 20:15:19 UTC] PHP Fatal error:  Uncaught Error: Call to a member function to_array() on string in /Users/aminadien/Local Sites/planty/app/public/wp-content/themes/Blankslate-Child/functions.php:25
+Stack trace:
+#0 /Users/aminadien/Local Sites/planty/app/public/wp-includes/class-wp-hook.php(308): add_extra_item_to_nav_menu('<li id="menu-it...', Object(stdClass))
+#1 /Users/aminadien/Local Sites/planty/app/public/wp-includes/plugin.php(205): WP_Hook->apply_filters('<li id="menu-it...', Array)
+#2 /Users/aminadien/Local Sites/planty/app/public/wp-includes/nav-menu-template.php(267): apply_filters('wp_nav_menu_ite...', '<li id="menu-it...', Object(stdClass))
+#3 /Users/aminadien/Local Sites/planty/app/public/wp-content/plugins/header-footer-elementor/inc/widgets-manager/widgets/class-navigation-menu.php(1934): wp_nav_menu(Object(stdClass))
+#4 /Users/aminadien/Local Sites/planty/app/public/wp-content/plugins/elementor/includes/base/controls-stack.php(2268): HFE\WidgetsManager\Widgets\Navigation_Menu->render()
+#5 /Users/aminadien/Local Sites/planty/app/public/wp-content/plugins/elementor/includes/base/widget-base.php(609): Elementor\Controls_Stack->render_by_mode()
+#6 /Users/aminadien/Local Sites/planty/app/public/wp-content/plugins/elementor/includes/base/widget-base.php(750): Elementor\Widget_Base->render_content()
+#7 /Users/aminadien/Local Sites/planty/app/public/wp-content/plugins/elementor/includes/base/element-base.php(449): Elementor\Widget_Base->print_content()
+#8 /Users/aminadien/Local Sites/planty/app/public/wp-content/plugins/elementor/includes/base/element-base.php(1354): Elementor\Element_Base->print_element()
+#9 /Users/aminadien/Local Sites/planty/app/public/wp-content/plugins/elementor/includes/base/element-base.php(449): Elementor\Element_Base->print_content()
+#10 /Users/aminadien/Local Sites/planty/app/public/wp-content/plugins/elementor/includes/base/element-base.php(1354): Elementor\Element_Base->print_element()
+#11 /Users/aminadien/Local Sites/planty/app/public/wp-content/plugins/elementor/includes/base/element-base.php(449): Elementor\Element_Base->print_content()
+#12 /Users/aminadien/Local Sites/planty/app/public/wp-content/plugins/elementor/core/base/document.php(1669): Elementor\Element_Base->print_element()
+#13 /Users/aminadien/Local Sites/planty/app/public/wp-content/plugins/elementor/core/base/document.php(1095): Elementor\Core\Base\Document->print_elements(Array)
+#14 /Users/aminadien/Local Sites/planty/app/public/wp-content/plugins/elementor/includes/frontend.php(1179): Elementor\Core\Base\Document->print_elements_with_wrapper(Array)
+#15 /Users/aminadien/Local Sites/planty/app/public/wp-content/plugins/elementor/includes/frontend.php(1247): Elementor\Frontend->get_builder_content('36', false)
+#16 /Users/aminadien/Local Sites/planty/app/public/wp-content/plugins/header-footer-elementor/inc/class-header-footer-elementor.php(510): Elementor\Frontend->get_builder_content_for_display('36')
+#17 /Users/aminadien/Local Sites/planty/app/public/wp-content/plugins/header-footer-elementor/inc/hfe-functions.php(88): Header_Footer_Elementor::get_header_content()
+#18 /Users/aminadien/Local Sites/planty/app/public/wp-includes/class-wp-hook.php(308): hfe_render_header('')
+#19 /Users/aminadien/Local Sites/planty/app/public/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#20 /Users/aminadien/Local Sites/planty/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#21 /Users/aminadien/Local Sites/planty/app/public/wp-content/plugins/header-footer-elementor/themes/default/hfe-header.php(23): do_action('hfe_header')
+#22 /Users/aminadien/Local Sites/planty/app/public/wp-content/plugins/header-footer-elementor/themes/default/class-hfe-default-compat.php(57): require('/Users/aminadie...')
+#23 /Users/aminadien/Local Sites/planty/app/public/wp-includes/class-wp-hook.php(310): HFE\Themes\HFE_Default_Compat->override_header(NULL)
+#24 /Users/aminadien/Local Sites/planty/app/public/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#25 /Users/aminadien/Local Sites/planty/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#26 /Users/aminadien/Local Sites/planty/app/public/wp-includes/general-template.php(38): do_action('get_header', NULL, Array)
+#27 /Users/aminadien/Local Sites/planty/app/public/wp-content/themes/Blankslate/page.php(1): get_header()
+#28 /Users/aminadien/Local Sites/planty/app/public/wp-includes/template-loader.php(106): include('/Users/aminadie...')
+#29 /Users/aminadien/Local Sites/planty/app/public/wp-blog-header.php(19): require_once('/Users/aminadie...')
+#30 /Users/aminadien/Local Sites/planty/app/public/index.php(17): require('/Users/aminadie...')
+#31 {main}
+  thrown in /Users/aminadien/Local Sites/planty/app/public/wp-content/themes/Blankslate-Child/functions.php on line 25
+[03-Apr-2023 20:16:40 UTC] PHP Fatal error:  Uncaught Error: Call to a member function to_array() on string in /Users/aminadien/Local Sites/planty/app/public/wp-content/themes/Blankslate-Child/functions.php:25
+Stack trace:
+#0 /Users/aminadien/Local Sites/planty/app/public/wp-includes/class-wp-hook.php(308): add_extra_item_to_nav_menu('<li id="menu-it...', Object(stdClass))
+#1 /Users/aminadien/Local Sites/planty/app/public/wp-includes/plugin.php(205): WP_Hook->apply_filters('<li id="menu-it...', Array)
+#2 /Users/aminadien/Local Sites/planty/app/public/wp-includes/nav-menu-template.php(267): apply_filters('wp_nav_menu_ite...', '<li id="menu-it...', Object(stdClass))
+#3 /Users/aminadien/Local Sites/planty/app/public/wp-content/plugins/header-footer-elementor/inc/widgets-manager/widgets/class-navigation-menu.php(1934): wp_nav_menu(Object(stdClass))
+#4 /Users/aminadien/Local Sites/planty/app/public/wp-content/plugins/elementor/includes/base/controls-stack.php(2268): HFE\WidgetsManager\Widgets\Navigation_Menu->render()
+#5 /Users/aminadien/Local Sites/planty/app/public/wp-content/plugins/elementor/includes/base/widget-base.php(609): Elementor\Controls_Stack->render_by_mode()
+#6 /Users/aminadien/Local Sites/planty/app/public/wp-content/plugins/elementor/includes/base/widget-base.php(750): Elementor\Widget_Base->render_content()
+#7 /Users/aminadien/Local Sites/planty/app/public/wp-content/plugins/elementor/includes/base/element-base.php(449): Elementor\Widget_Base->print_content()
+#8 /Users/aminadien/Local Sites/planty/app/public/wp-content/plugins/elementor/includes/base/element-base.php(1354): Elementor\Element_Base->print_element()
+#9 /Users/aminadien/Local Sites/planty/app/public/wp-content/plugins/elementor/includes/base/element-base.php(449): Elementor\Element_Base->print_content()
+#10 /Users/aminadien/Local Sites/planty/app/public/wp-content/plugins/elementor/includes/base/element-base.php(1354): Elementor\Element_Base->print_element()
+#11 /Users/aminadien/Local Sites/planty/app/public/wp-content/plugins/elementor/includes/base/element-base.php(449): Elementor\Element_Base->print_content()
+#12 /Users/aminadien/Local Sites/planty/app/public/wp-content/plugins/elementor/core/base/document.php(1669): Elementor\Element_Base->print_element()
+#13 /Users/aminadien/Local Sites/planty/app/public/wp-content/plugins/elementor/core/base/document.php(1095): Elementor\Core\Base\Document->print_elements(Array)
+#14 /Users/aminadien/Local Sites/planty/app/public/wp-content/plugins/elementor/includes/frontend.php(1179): Elementor\Core\Base\Document->print_elements_with_wrapper(Array)
+#15 /Users/aminadien/Local Sites/planty/app/public/wp-content/plugins/elementor/includes/frontend.php(1247): Elementor\Frontend->get_builder_content('36', false)
+#16 /Users/aminadien/Local Sites/planty/app/public/wp-content/plugins/header-footer-elementor/inc/class-header-footer-elementor.php(510): Elementor\Frontend->get_builder_content_for_display('36')
+#17 /Users/aminadien/Local Sites/planty/app/public/wp-content/plugins/header-footer-elementor/inc/hfe-functions.php(88): Header_Footer_Elementor::get_header_content()
+#18 /Users/aminadien/Local Sites/planty/app/public/wp-includes/class-wp-hook.php(308): hfe_render_header('')
+#19 /Users/aminadien/Local Sites/planty/app/public/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#20 /Users/aminadien/Local Sites/planty/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#21 /Users/aminadien/Local Sites/planty/app/public/wp-content/plugins/header-footer-elementor/themes/default/hfe-header.php(23): do_action('hfe_header')
+#22 /Users/aminadien/Local Sites/planty/app/public/wp-content/plugins/header-footer-elementor/themes/default/class-hfe-default-compat.php(57): require('/Users/aminadie...')
+#23 /Users/aminadien/Local Sites/planty/app/public/wp-includes/class-wp-hook.php(310): HFE\Themes\HFE_Default_Compat->override_header(NULL)
+#24 /Users/aminadien/Local Sites/planty/app/public/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#25 /Users/aminadien/Local Sites/planty/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#26 /Users/aminadien/Local Sites/planty/app/public/wp-includes/general-template.php(38): do_action('get_header', NULL, Array)
+#27 /Users/aminadien/Local Sites/planty/app/public/wp-content/themes/Blankslate/page.php(1): get_header()
+#28 /Users/aminadien/Local Sites/planty/app/public/wp-includes/template-loader.php(106): include('/Users/aminadie...')
+#29 /Users/aminadien/Local Sites/planty/app/public/wp-blog-header.php(19): require_once('/Users/aminadie...')
+#30 /Users/aminadien/Local Sites/planty/app/public/index.php(17): require('/Users/aminadie...')
+#31 {main}
+  thrown in /Users/aminadien/Local Sites/planty/app/public/wp-content/themes/Blankslate-Child/functions.php on line 25
+[03-Apr-2023 20:16:48 UTC] PHP Fatal error:  Uncaught Error: Object of class WP_Term could not be converted to string in /Users/aminadien/Local Sites/planty/app/public/wp-content/themes/Blankslate-Child/functions.php:25
+Stack trace:
+#0 /Users/aminadien/Local Sites/planty/app/public/wp-includes/class-wp-hook.php(308): add_extra_item_to_nav_menu('<li id="menu-it...', Object(stdClass))
+#1 /Users/aminadien/Local Sites/planty/app/public/wp-includes/plugin.php(205): WP_Hook->apply_filters('<li id="menu-it...', Array)
+#2 /Users/aminadien/Local Sites/planty/app/public/wp-includes/nav-menu-template.php(267): apply_filters('wp_nav_menu_ite...', '<li id="menu-it...', Object(stdClass))
+#3 /Users/aminadien/Local Sites/planty/app/public/wp-content/themes/Blankslate-Child/header.php(23): wp_nav_menu(Object(stdClass))
+#4 /Users/aminadien/Local Sites/planty/app/public/wp-includes/template.php(783): require_once('/Users/aminadie...')
+#5 /Users/aminadien/Local Sites/planty/app/public/wp-includes/template.php(718): load_template('/Users/aminadie...', true, Array)
+#6 /Users/aminadien/Local Sites/planty/app/public/wp-content/plugins/header-footer-elementor/themes/default/class-hfe-default-compat.php(63): locate_template(Array, true)
+#7 /Users/aminadien/Local Sites/planty/app/public/wp-includes/class-wp-hook.php(310): HFE\Themes\HFE_Default_Compat->override_header(NULL)
+#8 /Users/aminadien/Local Sites/planty/app/public/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#9 /Users/aminadien/Local Sites/planty/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /Users/aminadien/Local Sites/planty/app/public/wp-includes/general-template.php(38): do_action('get_header', NULL, Array)
+#11 /Users/aminadien/Local Sites/planty/app/public/wp-content/themes/Blankslate/page.php(1): get_header()
+#12 /Users/aminadien/Local Sites/planty/app/public/wp-includes/template-loader.php(106): include('/Users/aminadie...')
+#13 /Users/aminadien/Local Sites/planty/app/public/wp-blog-header.php(19): require_once('/Users/aminadie...')
+#14 /Users/aminadien/Local Sites/planty/app/public/index.php(17): require('/Users/aminadie...')
+#15 {main}
+  thrown in /Users/aminadien/Local Sites/planty/app/public/wp-content/themes/Blankslate-Child/functions.php on line 25
+[03-Apr-2023 20:16:50 UTC] PHP Fatal error:  Uncaught Error: Object of class WP_Term could not be converted to string in /Users/aminadien/Local Sites/planty/app/public/wp-content/themes/Blankslate-Child/functions.php:25
+Stack trace:
+#0 /Users/aminadien/Local Sites/planty/app/public/wp-includes/class-wp-hook.php(308): add_extra_item_to_nav_menu('<li id="menu-it...', Object(stdClass))
+#1 /Users/aminadien/Local Sites/planty/app/public/wp-includes/plugin.php(205): WP_Hook->apply_filters('<li id="menu-it...', Array)
+#2 /Users/aminadien/Local Sites/planty/app/public/wp-includes/nav-menu-template.php(267): apply_filters('wp_nav_menu_ite...', '<li id="menu-it...', Object(stdClass))
+#3 /Users/aminadien/Local Sites/planty/app/public/wp-content/themes/Blankslate-Child/header.php(23): wp_nav_menu(Object(stdClass))
+#4 /Users/aminadien/Local Sites/planty/app/public/wp-includes/template.php(783): require_once('/Users/aminadie...')
+#5 /Users/aminadien/Local Sites/planty/app/public/wp-includes/template.php(718): load_template('/Users/aminadie...', true, Array)
+#6 /Users/aminadien/Local Sites/planty/app/public/wp-content/plugins/header-footer-elementor/themes/default/class-hfe-default-compat.php(63): locate_template(Array, true)
+#7 /Users/aminadien/Local Sites/planty/app/public/wp-includes/class-wp-hook.php(310): HFE\Themes\HFE_Default_Compat->override_header(NULL)
+#8 /Users/aminadien/Local Sites/planty/app/public/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#9 /Users/aminadien/Local Sites/planty/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /Users/aminadien/Local Sites/planty/app/public/wp-includes/general-template.php(38): do_action('get_header', NULL, Array)
+#11 /Users/aminadien/Local Sites/planty/app/public/wp-content/themes/Blankslate/page.php(1): get_header()
+#12 /Users/aminadien/Local Sites/planty/app/public/wp-includes/template-loader.php(106): include('/Users/aminadie...')
+#13 /Users/aminadien/Local Sites/planty/app/public/wp-blog-header.php(19): require_once('/Users/aminadie...')
+#14 /Users/aminadien/Local Sites/planty/app/public/index.php(17): require('/Users/aminadie...')
+#15 {main}
+  thrown in /Users/aminadien/Local Sites/planty/app/public/wp-content/themes/Blankslate-Child/functions.php on line 25
+[03-Apr-2023 20:16:51 UTC] PHP Fatal error:  Uncaught Error: Object of class WP_Term could not be converted to string in /Users/aminadien/Local Sites/planty/app/public/wp-content/themes/Blankslate-Child/functions.php:25
+Stack trace:
+#0 /Users/aminadien/Local Sites/planty/app/public/wp-includes/class-wp-hook.php(308): add_extra_item_to_nav_menu('<li id="menu-it...', Object(stdClass))
+#1 /Users/aminadien/Local Sites/planty/app/public/wp-includes/plugin.php(205): WP_Hook->apply_filters('<li id="menu-it...', Array)
+#2 /Users/aminadien/Local Sites/planty/app/public/wp-includes/nav-menu-template.php(267): apply_filters('wp_nav_menu_ite...', '<li id="menu-it...', Object(stdClass))
+#3 /Users/aminadien/Local Sites/planty/app/public/wp-content/themes/Blankslate-Child/header.php(23): wp_nav_menu(Object(stdClass))
+#4 /Users/aminadien/Local Sites/planty/app/public/wp-includes/template.php(783): require_once('/Users/aminadie...')
+#5 /Users/aminadien/Local Sites/planty/app/public/wp-includes/template.php(718): load_template('/Users/aminadie...', true, Array)
+#6 /Users/aminadien/Local Sites/planty/app/public/wp-content/plugins/header-footer-elementor/themes/default/class-hfe-default-compat.php(63): locate_template(Array, true)
+#7 /Users/aminadien/Local Sites/planty/app/public/wp-includes/class-wp-hook.php(310): HFE\Themes\HFE_Default_Compat->override_header(NULL)
+#8 /Users/aminadien/Local Sites/planty/app/public/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#9 /Users/aminadien/Local Sites/planty/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /Users/aminadien/Local Sites/planty/app/public/wp-includes/general-template.php(38): do_action('get_header', NULL, Array)
+#11 /Users/aminadien/Local Sites/planty/app/public/wp-content/themes/Blankslate/page.php(1): get_header()
+#12 /Users/aminadien/Local Sites/planty/app/public/wp-includes/template-loader.php(106): include('/Users/aminadie...')
+#13 /Users/aminadien/Local Sites/planty/app/public/wp-blog-header.php(19): require_once('/Users/aminadie...')
+#14 /Users/aminadien/Local Sites/planty/app/public/index.php(17): require('/Users/aminadie...')
+#15 {main}
+  thrown in /Users/aminadien/Local Sites/planty/app/public/wp-content/themes/Blankslate-Child/functions.php on line 25
+[03-Apr-2023 20:18:28 UTC] PHP Fatal error:  Uncaught Error: Call to a member function to_array() on string in /Users/aminadien/Local Sites/planty/app/public/wp-content/themes/Blankslate-Child/functions.php:25
+Stack trace:
+#0 /Users/aminadien/Local Sites/planty/app/public/wp-includes/class-wp-hook.php(308): add_extra_item_to_nav_menu('<li id="menu-it...', Object(stdClass))
+#1 /Users/aminadien/Local Sites/planty/app/public/wp-includes/plugin.php(205): WP_Hook->apply_filters('<li id="menu-it...', Array)
+#2 /Users/aminadien/Local Sites/planty/app/public/wp-includes/nav-menu-template.php(267): apply_filters('wp_nav_menu_ite...', '<li id="menu-it...', Object(stdClass))
+#3 /Users/aminadien/Local Sites/planty/app/public/wp-content/plugins/header-footer-elementor/inc/widgets-manager/widgets/class-navigation-menu.php(1934): wp_nav_menu(Object(stdClass))
+#4 /Users/aminadien/Local Sites/planty/app/public/wp-content/plugins/elementor/includes/base/controls-stack.php(2268): HFE\WidgetsManager\Widgets\Navigation_Menu->render()
+#5 /Users/aminadien/Local Sites/planty/app/public/wp-content/plugins/elementor/includes/base/widget-base.php(609): Elementor\Controls_Stack->render_by_mode()
+#6 /Users/aminadien/Local Sites/planty/app/public/wp-content/plugins/elementor/includes/base/widget-base.php(750): Elementor\Widget_Base->render_content()
+#7 /Users/aminadien/Local Sites/planty/app/public/wp-content/plugins/elementor/includes/base/element-base.php(449): Elementor\Widget_Base->print_content()
+#8 /Users/aminadien/Local Sites/planty/app/public/wp-content/plugins/elementor/includes/base/element-base.php(1354): Elementor\Element_Base->print_element()
+#9 /Users/aminadien/Local Sites/planty/app/public/wp-content/plugins/elementor/includes/base/element-base.php(449): Elementor\Element_Base->print_content()
+#10 /Users/aminadien/Local Sites/planty/app/public/wp-content/plugins/elementor/includes/base/element-base.php(1354): Elementor\Element_Base->print_element()
+#11 /Users/aminadien/Local Sites/planty/app/public/wp-content/plugins/elementor/includes/base/element-base.php(449): Elementor\Element_Base->print_content()
+#12 /Users/aminadien/Local Sites/planty/app/public/wp-content/plugins/elementor/core/base/document.php(1669): Elementor\Element_Base->print_element()
+#13 /Users/aminadien/Local Sites/planty/app/public/wp-content/plugins/elementor/core/base/document.php(1095): Elementor\Core\Base\Document->print_elements(Array)
+#14 /Users/aminadien/Local Sites/planty/app/public/wp-content/plugins/elementor/includes/frontend.php(1179): Elementor\Core\Base\Document->print_elements_with_wrapper(Array)
+#15 /Users/aminadien/Local Sites/planty/app/public/wp-content/plugins/elementor/includes/frontend.php(1247): Elementor\Frontend->get_builder_content('36', false)
+#16 /Users/aminadien/Local Sites/planty/app/public/wp-content/plugins/header-footer-elementor/inc/class-header-footer-elementor.php(510): Elementor\Frontend->get_builder_content_for_display('36')
+#17 /Users/aminadien/Local Sites/planty/app/public/wp-content/plugins/header-footer-elementor/inc/hfe-functions.php(88): Header_Footer_Elementor::get_header_content()
+#18 /Users/aminadien/Local Sites/planty/app/public/wp-includes/class-wp-hook.php(308): hfe_render_header('')
+#19 /Users/aminadien/Local Sites/planty/app/public/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#20 /Users/aminadien/Local Sites/planty/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#21 /Users/aminadien/Local Sites/planty/app/public/wp-content/plugins/header-footer-elementor/themes/default/hfe-header.php(23): do_action('hfe_header')
+#22 /Users/aminadien/Local Sites/planty/app/public/wp-content/plugins/header-footer-elementor/themes/default/class-hfe-default-compat.php(57): require('/Users/aminadie...')
+#23 /Users/aminadien/Local Sites/planty/app/public/wp-includes/class-wp-hook.php(310): HFE\Themes\HFE_Default_Compat->override_header(NULL)
+#24 /Users/aminadien/Local Sites/planty/app/public/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#25 /Users/aminadien/Local Sites/planty/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#26 /Users/aminadien/Local Sites/planty/app/public/wp-includes/general-template.php(38): do_action('get_header', NULL, Array)
+#27 /Users/aminadien/Local Sites/planty/app/public/wp-content/themes/Blankslate/page.php(1): get_header()
+#28 /Users/aminadien/Local Sites/planty/app/public/wp-includes/template-loader.php(106): include('/Users/aminadie...')
+#29 /Users/aminadien/Local Sites/planty/app/public/wp-blog-header.php(19): require_once('/Users/aminadie...')
+#30 /Users/aminadien/Local Sites/planty/app/public/index.php(17): require('/Users/aminadie...')
+#31 {main}
+  thrown in /Users/aminadien/Local Sites/planty/app/public/wp-content/themes/Blankslate-Child/functions.php on line 25
+[03-Apr-2023 20:18:31 UTC] PHP Fatal error:  Uncaught Error: Call to a member function to_array() on string in /Users/aminadien/Local Sites/planty/app/public/wp-content/themes/Blankslate-Child/functions.php:25
+Stack trace:
+#0 /Users/aminadien/Local Sites/planty/app/public/wp-includes/class-wp-hook.php(308): add_extra_item_to_nav_menu('<li id="menu-it...', Object(stdClass))
+#1 /Users/aminadien/Local Sites/planty/app/public/wp-includes/plugin.php(205): WP_Hook->apply_filters('<li id="menu-it...', Array)
+#2 /Users/aminadien/Local Sites/planty/app/public/wp-includes/nav-menu-template.php(267): apply_filters('wp_nav_menu_ite...', '<li id="menu-it...', Object(stdClass))
+#3 /Users/aminadien/Local Sites/planty/app/public/wp-content/plugins/header-footer-elementor/inc/widgets-manager/widgets/class-navigation-menu.php(1934): wp_nav_menu(Object(stdClass))
+#4 /Users/aminadien/Local Sites/planty/app/public/wp-content/plugins/elementor/includes/base/controls-stack.php(2268): HFE\WidgetsManager\Widgets\Navigation_Menu->render()
+#5 /Users/aminadien/Local Sites/planty/app/public/wp-content/plugins/elementor/includes/base/widget-base.php(609): Elementor\Controls_Stack->render_by_mode()
+#6 /Users/aminadien/Local Sites/planty/app/public/wp-content/plugins/elementor/includes/base/widget-base.php(750): Elementor\Widget_Base->render_content()
+#7 /Users/aminadien/Local Sites/planty/app/public/wp-content/plugins/elementor/includes/base/element-base.php(449): Elementor\Widget_Base->print_content()
+#8 /Users/aminadien/Local Sites/planty/app/public/wp-content/plugins/elementor/includes/base/element-base.php(1354): Elementor\Element_Base->print_element()
+#9 /Users/aminadien/Local Sites/planty/app/public/wp-content/plugins/elementor/includes/base/element-base.php(449): Elementor\Element_Base->print_content()
+#10 /Users/aminadien/Local Sites/planty/app/public/wp-content/plugins/elementor/includes/base/element-base.php(1354): Elementor\Element_Base->print_element()
+#11 /Users/aminadien/Local Sites/planty/app/public/wp-content/plugins/elementor/includes/base/element-base.php(449): Elementor\Element_Base->print_content()
+#12 /Users/aminadien/Local Sites/planty/app/public/wp-content/plugins/elementor/core/base/document.php(1669): Elementor\Element_Base->print_element()
+#13 /Users/aminadien/Local Sites/planty/app/public/wp-content/plugins/elementor/core/base/document.php(1095): Elementor\Core\Base\Document->print_elements(Array)
+#14 /Users/aminadien/Local Sites/planty/app/public/wp-content/plugins/elementor/includes/frontend.php(1179): Elementor\Core\Base\Document->print_elements_with_wrapper(Array)
+#15 /Users/aminadien/Local Sites/planty/app/public/wp-content/plugins/elementor/includes/frontend.php(1247): Elementor\Frontend->get_builder_content('36', false)
+#16 /Users/aminadien/Local Sites/planty/app/public/wp-content/plugins/header-footer-elementor/inc/class-header-footer-elementor.php(510): Elementor\Frontend->get_builder_content_for_display('36')
+#17 /Users/aminadien/Local Sites/planty/app/public/wp-content/plugins/header-footer-elementor/inc/hfe-functions.php(88): Header_Footer_Elementor::get_header_content()
+#18 /Users/aminadien/Local Sites/planty/app/public/wp-includes/class-wp-hook.php(308): hfe_render_header('')
+#19 /Users/aminadien/Local Sites/planty/app/public/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#20 /Users/aminadien/Local Sites/planty/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#21 /Users/aminadien/Local Sites/planty/app/public/wp-content/plugins/header-footer-elementor/themes/default/hfe-header.php(23): do_action('hfe_header')
+#22 /Users/aminadien/Local Sites/planty/app/public/wp-content/plugins/header-footer-elementor/themes/default/class-hfe-default-compat.php(57): require('/Users/aminadie...')
+#23 /Users/aminadien/Local Sites/planty/app/public/wp-includes/class-wp-hook.php(310): HFE\Themes\HFE_Default_Compat->override_header(NULL)
+#24 /Users/aminadien/Local Sites/planty/app/public/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#25 /Users/aminadien/Local Sites/planty/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#26 /Users/aminadien/Local Sites/planty/app/public/wp-includes/general-template.php(38): do_action('get_header', NULL, Array)
+#27 /Users/aminadien/Local Sites/planty/app/public/wp-content/themes/Blankslate/page.php(1): get_header()
+#28 /Users/aminadien/Local Sites/planty/app/public/wp-includes/template-loader.php(106): include('/Users/aminadie...')
+#29 /Users/aminadien/Local Sites/planty/app/public/wp-blog-header.php(19): require_once('/Users/aminadie...')
+#30 /Users/aminadien/Local Sites/planty/app/public/index.php(17): require('/Users/aminadie...')
+#31 {main}
+  thrown in /Users/aminadien/Local Sites/planty/app/public/wp-content/themes/Blankslate-Child/functions.php on line 25
+[03-Apr-2023 20:33:15 UTC] PHP Fatal error:  Uncaught Error: Object of class WP_Term could not be converted to string in /Users/aminadien/Local Sites/planty/app/public/wp-content/themes/Blankslate-Child/functions.php:25
+Stack trace:
+#0 /Users/aminadien/Local Sites/planty/app/public/wp-includes/class-wp-hook.php(308): add_extra_item_to_nav_menu('<li id="menu-it...', Object(stdClass))
+#1 /Users/aminadien/Local Sites/planty/app/public/wp-includes/plugin.php(205): WP_Hook->apply_filters('<li id="menu-it...', Array)
+#2 /Users/aminadien/Local Sites/planty/app/public/wp-includes/nav-menu-template.php(267): apply_filters('wp_nav_menu_ite...', '<li id="menu-it...', Object(stdClass))
+#3 /Users/aminadien/Local Sites/planty/app/public/wp-content/themes/Blankslate-Child/header.php(23): wp_nav_menu(Object(stdClass))
+#4 /Users/aminadien/Local Sites/planty/app/public/wp-includes/template.php(783): require_once('/Users/aminadie...')
+#5 /Users/aminadien/Local Sites/planty/app/public/wp-includes/template.php(718): load_template('/Users/aminadie...', true, Array)
+#6 /Users/aminadien/Local Sites/planty/app/public/wp-content/plugins/header-footer-elementor/themes/default/class-hfe-default-compat.php(63): locate_template(Array, true)
+#7 /Users/aminadien/Local Sites/planty/app/public/wp-includes/class-wp-hook.php(310): HFE\Themes\HFE_Default_Compat->override_header(NULL)
+#8 /Users/aminadien/Local Sites/planty/app/public/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#9 /Users/aminadien/Local Sites/planty/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /Users/aminadien/Local Sites/planty/app/public/wp-includes/general-template.php(38): do_action('get_header', NULL, Array)
+#11 /Users/aminadien/Local Sites/planty/app/public/wp-content/themes/Blankslate/page.php(1): get_header()
+#12 /Users/aminadien/Local Sites/planty/app/public/wp-includes/template-loader.php(106): include('/Users/aminadie...')
+#13 /Users/aminadien/Local Sites/planty/app/public/wp-blog-header.php(19): require_once('/Users/aminadie...')
+#14 /Users/aminadien/Local Sites/planty/app/public/index.php(17): require('/Users/aminadie...')
+#15 {main}
+  thrown in /Users/aminadien/Local Sites/planty/app/public/wp-content/themes/Blankslate-Child/functions.php on line 25
+[08-Apr-2023 12:52:52 UTC] PHP Parse error:  syntax error, unexpected token "=>" in /Users/aminadien/Local Sites/planty/app/public/wp-content/themes/Blankslate-Child/functions.php on line 18
+[08-Apr-2023 12:52:54 UTC] PHP Parse error:  syntax error, unexpected token "=>" in /Users/aminadien/Local Sites/planty/app/public/wp-content/themes/Blankslate-Child/functions.php on line 18
+[08-Apr-2023 12:53:29 UTC] PHP Parse error:  syntax error, unexpected token "=>" in /Users/aminadien/Local Sites/planty/app/public/wp-content/themes/Blankslate-Child/functions.php on line 18
+[08-Apr-2023 12:53:31 UTC] PHP Parse error:  syntax error, unexpected token "=>" in /Users/aminadien/Local Sites/planty/app/public/wp-content/themes/Blankslate-Child/functions.php on line 18
+[08-Apr-2023 12:53:36 UTC] PHP Parse error:  syntax error, unexpected token "=>" in /Users/aminadien/Local Sites/planty/app/public/wp-content/themes/Blankslate-Child/functions.php on line 18
+[08-Apr-2023 12:54:49 UTC] PHP Parse error:  syntax error, unexpected token "=>" in /Users/aminadien/Local Sites/planty/app/public/wp-content/themes/Blankslate-Child/functions.php on line 18
+[08-Apr-2023 12:54:50 UTC] PHP Parse error:  syntax error, unexpected token "=>" in /Users/aminadien/Local Sites/planty/app/public/wp-content/themes/Blankslate-Child/functions.php on line 18
+[08-Apr-2023 12:55:05 UTC] PHP Parse error:  syntax error, unexpected token "=>" in /Users/aminadien/Local Sites/planty/app/public/wp-content/themes/Blankslate-Child/functions.php on line 18
+[08-Apr-2023 12:55:10 UTC] PHP Parse error:  syntax error, unexpected token ")" in /Users/aminadien/Local Sites/planty/app/public/wp-content/themes/Blankslate-Child/functions.php on line 18
+[08-Apr-2023 12:55:11 UTC] PHP Parse error:  syntax error, unexpected token ")" in /Users/aminadien/Local Sites/planty/app/public/wp-content/themes/Blankslate-Child/functions.php on line 18
+[08-Apr-2023 12:55:12 UTC] PHP Parse error:  syntax error, unexpected token ")" in /Users/aminadien/Local Sites/planty/app/public/wp-content/themes/Blankslate-Child/functions.php on line 18
+[08-Apr-2023 12:55:12 UTC] PHP Parse error:  syntax error, unexpected token ")" in /Users/aminadien/Local Sites/planty/app/public/wp-content/themes/Blankslate-Child/functions.php on line 18
+[10-Apr-2023 12:24:06 UTC] PHP Parse error:  syntax error, unexpected identifier "true", expecting "(" in /Users/aminadien/Local Sites/planty/app/public/wp-content/themes/Blankslate-Child/functions.php on line 18
+[10-Apr-2023 12:24:08 UTC] PHP Parse error:  syntax error, unexpected identifier "true", expecting "(" in /Users/aminadien/Local Sites/planty/app/public/wp-content/themes/Blankslate-Child/functions.php on line 18
