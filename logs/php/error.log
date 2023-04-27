@@ -339,3 +339,26 @@ Stack trace:
 [08-Apr-2023 12:55:12 UTC] PHP Parse error:  syntax error, unexpected token ")" in /Users/aminadien/Local Sites/planty/app/public/wp-content/themes/Blankslate-Child/functions.php on line 18
 [10-Apr-2023 12:24:06 UTC] PHP Parse error:  syntax error, unexpected identifier "true", expecting "(" in /Users/aminadien/Local Sites/planty/app/public/wp-content/themes/Blankslate-Child/functions.php on line 18
 [10-Apr-2023 12:24:08 UTC] PHP Parse error:  syntax error, unexpected identifier "true", expecting "(" in /Users/aminadien/Local Sites/planty/app/public/wp-content/themes/Blankslate-Child/functions.php on line 18
+[25-Apr-2023 09:30:48 UTC] PHP Parse error:  syntax error, unexpected token "}" in /Users/aminadien/Local Sites/planty/app/public/wp-content/themes/Blankslate-Child/functions.php on line 20
+[25-Apr-2023 09:30:49 UTC] PHP Parse error:  syntax error, unexpected token "}" in /Users/aminadien/Local Sites/planty/app/public/wp-content/themes/Blankslate-Child/functions.php on line 20
+[25-Apr-2023 09:30:56 UTC] PHP Parse error:  syntax error, unexpected token "return" in /Users/aminadien/Local Sites/planty/app/public/wp-content/themes/Blankslate-Child/functions.php on line 21
+[27-Apr-2023 00:25:58 UTC] PHP Parse error:  syntax error, unexpected double-quote mark in /Users/aminadien/Local Sites/planty/app/public/wp-content/themes/Blankslate-Child/functions.php on line 18
+[27-Apr-2023 00:26:33 UTC] PHP Parse error:  syntax error, unexpected double-quote mark in /Users/aminadien/Local Sites/planty/app/public/wp-content/themes/Blankslate-Child/functions.php on line 18
+[27-Apr-2023 00:26:33 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/aminadien/Local Sites/planty/app/public/wp-includes/class-wp-recovery-mode-email-service.php on line 367
+[27-Apr-2023 00:26:33 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/aminadien/Local Sites/planty/app/public/wp-includes/class-wp-recovery-mode-email-service.php on line 368
+[27-Apr-2023 07:58:56 UTC] PHP Warning:  Une erreur imprévue est survenue. Il pourrait y avoir un problème avec WordPress.org ou la configuration de ce serveur. Si vous continuez à rencontrer ce problème, veuillez vous rendre sur les <a href="https://wpfr.net/support">forums de support</a>. (WordPress n’a pas pu établir de connexion sécurisée vers WordPress.org. Veuillez contacter l’administrateur ou l’administratrice de votre serveur.) in /Users/aminadien/Local Sites/planty/app/public/wp-includes/update.php on line 209
+[27-Apr-2023 07:58:56 UTC] PHP Warning:  Une erreur imprévue est survenue. Il pourrait y avoir un problème avec WordPress.org ou la configuration de ce serveur. Si vous continuez à rencontrer ce problème, veuillez vous rendre sur les <a href="https://wpfr.net/support">forums de support</a>. (WordPress n’a pas pu établir de connexion sécurisée vers WordPress.org. Veuillez contacter l’administrateur ou l’administratrice de votre serveur.) in /Users/aminadien/Local Sites/planty/app/public/wp-includes/update.php on line 447
+[27-Apr-2023 07:58:56 UTC] PHP Warning:  Une erreur imprévue est survenue. Il pourrait y avoir un problème avec WordPress.org ou la configuration de ce serveur. Si vous continuez à rencontrer ce problème, veuillez vous rendre sur les <a href="https://wpfr.net/support">forums de support</a>. (WordPress n’a pas pu établir de connexion sécurisée vers WordPress.org. Veuillez contacter l’administrateur ou l’administratrice de votre serveur.) in /Users/aminadien/Local Sites/planty/app/public/wp-includes/update.php on line 728
+[27-Apr-2023 09:10:34 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "register_my_menu" not found or invalid function name in /Users/aminadien/Local Sites/planty/app/public/wp-includes/class-wp-hook.php:308
+Stack trace:
+#0 /Users/aminadien/Local Sites/planty/app/public/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#1 /Users/aminadien/Local Sites/planty/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /Users/aminadien/Local Sites/planty/app/public/wp-settings.php(601): do_action('after_setup_the...')
+#3 /Users/aminadien/Local Sites/planty/app/public/wp-config.php(93): require_once('/Users/aminadie...')
+#4 /Users/aminadien/Local Sites/planty/app/public/wp-load.php(50): require_once('/Users/aminadie...')
+#5 /Users/aminadien/Local Sites/planty/app/public/wp-blog-header.php(13): require_once('/Users/aminadie...')
+#6 /Users/aminadien/Local Sites/planty/app/public/index.php(17): require('/Users/aminadie...')
+#7 {main}
+  thrown in /Users/aminadien/Local Sites/planty/app/public/wp-includes/class-wp-hook.php on line 308
+[27-Apr-2023 09:12:08 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /Users/aminadien/Local Sites/planty/app/public/wp-content/themes/Blankslate-Child/functions.php on line 11
+[27-Apr-2023 09:12:09 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /Users/aminadien/Local Sites/planty/app/public/wp-content/themes/Blankslate-Child/functions.php on line 11

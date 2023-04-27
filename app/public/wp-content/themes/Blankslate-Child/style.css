@@ -24,6 +24,27 @@ header {
   padding: 0px;
 }
 
+/*BOUTON*/
+
+#menu-header{
+  display: flex;
+       flex-direction: row;
+}
+
+#menu-1-79beae7 :nth-child(1) { order: 1; }
+#menu-1-79beae7 :nth-child(2) { order: 3; }
+#menu-1-79beae7 :nth-child(3) { order: 2; }
+
+#menu-1-79beae7 li:nth-child(2){
+ background-color: #DC9F96;
+ font-weight: 700;
+
+}
+
+#menu-item-846 a {
+  color:white !important;
+}
+
 /*FORMULAIRE*/
 
 form {
@@ -108,3 +129,4 @@ form {
   margin-right: 0px;
 }
 }
+
